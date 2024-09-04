@@ -7,7 +7,8 @@ const UseEffectPage = () => {
   const fetchData = () => {
     fetch(`https://dev.to/api/articles?per_page=10&page=${page}`)
       .then((response) => response.json())
-      .then((data) => setArticles(data));
+      .then((data) => setArticles(data))
+      .catch((error) => console.log(error));
   };
 
   const handleMorePageClick = () => {
