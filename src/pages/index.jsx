@@ -198,7 +198,7 @@ export default function Home() {
   return (
     <div>
       <Callback />
-      <Promise />
+      {/* <Promise /> */}
       <UseEffect />
     </div>
   );
