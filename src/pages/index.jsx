@@ -5,6 +5,7 @@ import { HomePage } from "./ArticleCardData";
 import Callback from "./callback";
 import UseEffectPage from "../components/pages/UseEffectPage";
 import UseEffect from "./use-effect";
+import Promise from "./promise";
 
 // //hook
 // //state uurchlugdvul render hiine
@@ -198,7 +199,7 @@ export default function Home() {
   return (
     <div>
       <Callback />
-      {/* <Promise /> */}
+      <Promise />
       <UseEffect />
     </div>
   );
