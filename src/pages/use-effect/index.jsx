@@ -3,7 +3,7 @@ const { default: UseEffectPage } = require("@/components/pages/UseEffectPage");
 const UseEffect = () => {
   return (
     <div>
-      <UseEffectPage />
+      {/* <UseEffectPage /> */}
     </div>
   );
 };
