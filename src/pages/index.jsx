@@ -195,12 +195,24 @@ import Promise from "./promise";
 //   );
 // }
 
-export default function Home() {
+const Home = () => {
+  let name = "Zol boston boston";
+
+  console.log(name.replaceAll("boston", "Zen"));
+
+  let text = "           Zoloo      ";
+  console.log(text.trim()); // whitespace buyu sul space arilgadag
+
+  let text1 = "Zoloo";
+  let text2 = "Zen";
+  console.log(text1.concat("-iin ovog bol ", text2)); // >=2 String holbodog. 
+
   return (
     <div>
-      <Callback />
-      <Promise />
+      {/* <Callback />
+      <Promise /> */}
       <UseEffect />
     </div>
   );
-}
+};
+export default Home;

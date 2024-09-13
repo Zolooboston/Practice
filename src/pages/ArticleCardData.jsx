@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 const ArticleCard = ({ article }) => {
   const publishedDate = new Date(article.published_at);
+  
 
   const generateMonth = (month) => {
     switch (month) {
